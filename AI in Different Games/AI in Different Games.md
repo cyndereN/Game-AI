@@ -111,3 +111,32 @@ Scarier when closer but
 - Searching System
 
     - Sub-optimal Exploration of all Nav Points: Alien searches all prescribed locations but in any given sequence, sometimes resulting in the alien backtracking to areas it visited before
+
+
+## 9. Far Cry - The Systemic AI 
+
+- Enemy
+- Ally
+- Civilian
+- Wildlife
+
+1. NPCs only exist within 500m of the player at all times
+
+2. FSM that respond to local stimuli
+
+3. Limited number of NPCs can be in-game at once and AI will add/remove accordingly.
+
+## 10. Team Fortress 2 - Status Performance
+
+## 11. BioShock Infinite - Liz 
+
+- "Goal-Side": A football defensive tactic where defending players ensure they are standing between the goal and the opposing player who ahas possession of the ball
+
+- "Smart Terrain": Items that could be found sitting somewhere on the game-worlds nav mesh taht'll trigger specific animation and audio cues for non-player characters
+![](assets/BioShock.png)
+
+- "Emotional State"
+
+- "Nav Mesh": Aiming to stop Liz from walking into areas where enemies are standing
+
+- "Booker-Catch": Throw useful objects to the player

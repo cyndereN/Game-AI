@@ -140,3 +140,104 @@ Scarier when closer but
 - "Nav Mesh": Aiming to stop Liz from walking into areas where enemies are standing
 
 - "Booker-Catch": Throw useful objects to the player
+
+## 12. Far Cry Primal - Companion AI
+
+## 13. Halo 3 - Large-Scale AI Battles
+
+![](assets/HALO3.png)
+
+
+## 14. Ghost Recon Wildlands - Friendly AI Cheat
+
+- Dont steal the limelight
+- Support the palyer when needed
+- Follow orders
+
+## 15. Horizon Zero Dawn - Pt.1 Rise of the Machines
+
+- The Agents
+    - Individual Agent
+    - Group Agent
+    - Group Blackboard:
+        - Local patrols
+        - Valid locations
+        - Nearby disturbances
+        - Enemy locations
+
+- Hierarchical Task Network Planner
+    
+    Action Macro contains multiple actions in a set sequence
+
+- The Collective
+
+    - All group & individual agents
+
+    
+## 16. Horizon Zero Dawn - Pt.2 Metal Militia 
+
+- Sensor system
+
+- Navigation
+
+    - Dynamic
+    - Air-based Mipmap
+
+## 17. Sea of Thieves - Pt.1 Skeleton and Shark AI 
+
+Arc in path
+
+## 18. Hitman - Sandbox Assassin
+
+Services
+- Disguise
+- Dead Body
+- Hitman
+
+![](assets/HitmanStructure.png)
+
+## 19. Alien: Isolation - XenoMorph senses
+
+## 20. Splinter Cell: Blacklist - Balance for Stealth
+
+- Visual Perception
+- Auditory Perception
+- Environment Awareness
+- Social & Contextual Awareness
+
+## 21. The Last of Us
+
+AI Architecture
+
+- FSM
+- Search Skill
+- Audio & Vision sensor
+- Combat Skill
+
+## 22. The Last of Us Part II 
+
+Melee 'Units':
+
+- Animation
+- Start and end condition
+- The events of the attack
+- Strafe slots & tracking
+
+## 23. Watch Dogs 2 - Civilian AI
+
+The Anecdote Factory
+
+- Reactive agent system
+- Attractor system
+
+Reactive State
+
+- Emotion
+- Violent、Pessimistic、Optimistic、Neutral、Heroic
+- Reaction Matrix
+    - Logic Rule / Audio Rule / Animation Rule
+    - Spreadsheet
+
+Rules of Attraction
+
+## 24. Forza - Drivatar

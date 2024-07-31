@@ -241,3 +241,38 @@ Reactive State
 Rules of Attraction
 
 ## 24. Forza - Drivatar
+
+## 25. DOOM (1993) 
+
+![](assets/DOOM.png)
+
+## 26. Death Stranding - Navigation
+
+1. Creating Navmesh
+2. Identifying high cost areas
+3. Maintaining Accuracy
+
+## 27. Halo Infinite
+
+![](assets/HALOINF_CoreBehaviour.png)
+![](assets/HALOINF_ThreePillars.png)
+
+## 28. A Plague Tale - Flow Fields for Rats
+
+Direction on grid!
+
+## 29. Marvel's Spider-Man
+
+Data Driven FSM
+
+Combat Management System
+
+## 30. Dark Souls
+
+Hierarchical Planning
+
+- Plans of action created by breaking down a problem in smaller and easier sub-problems
+
+The Combat Wheel
+
+- Random selection of action

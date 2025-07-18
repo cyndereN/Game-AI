@@ -317,3 +317,12 @@ https://www.youtube.com/watch?v=Smuy2d7y7mA&list=PLNTm9yU0zou7kKcN7091Rdr322Qge5
 https://docs.unrealengine.com/5.0/en-US/world-partitioned-navigation-mesh/
 
 https://docs.unrealengine.com/5.1/en-US/world-partition-in-unreal-engine/
+
+
+## Useful links
+
+https://dev.epicgames.com/documentation/en-us/unreal-engine/optimizing-navigation-mesh-generation-speed-in-unreal-engine?application_version=5.3
+
+https://qiao.github.io/PathFinding.js/visual/
+
+https://zhuanlan.zhihu.com/p/691181077

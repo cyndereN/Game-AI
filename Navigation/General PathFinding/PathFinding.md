@@ -2,6 +2,8 @@
 
 https://qiao.github.io/PathFinding.js/visual/
 
+https://zhuanlan.zhihu.com/p/656641483
+
 ## Introduction
 
 本小结会深入浅出的分析常用的AI寻路技术，以及对比各家寻路技术方案的优劣点，然后分析目前应用最广泛的寻路技术，剖析其寻路技术的生成和寻路算法部分，以及在大世界的应用和优化等。
@@ -55,6 +57,8 @@ https://qiao.github.io/PathFinding.js/visual/
     Unlike the Dijkstra algorithm, this algorithm can also be applied to graphs containing negative weight edges . However, if the graph contains a negative cycle, then, clearly, the shortest path to some vertices may not exist (due to the fact that the weight of the shortest path must be equal to minus infinity); however, this algorithm can be modified to signal the presence of a cycle of negative weight, or even deduce this cycle.
 
 5. floyd-warshall O(V^3)
+    
+    是一种用于解决所有节点对最短路径的动态规划算法。它能够在有向图或带权图中找到任意两个节点之间的最短路径。Floyd算法的时间复杂度为O(n^3)，其中n是节点的数量。它适用于解决稠密图或有向图中的最短路径问题，但对于大型图可能会变得相对较慢。Floyd算法在网络路由、图论等领域有广泛的应用，它能够找到任意两个节点之间的最短路径，并且可以处理负权边的情况。然而，Floyd算法的空间复杂度较高，因为需要存储所有节点对之间的距离信息。
 
 6. SPFA（Shortest Path Faster Algorithm）
 

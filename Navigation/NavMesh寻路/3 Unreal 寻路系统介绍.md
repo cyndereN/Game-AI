@@ -1,10 +1,27 @@
 # Unreal 寻路系统介绍
 
+https://zhuanlan.zhihu.com/p/656641483
+
 ## Navmesh
 
 Navmesh：在开源项目recastnavigation上修改而来，可以在源码中查看到Recast和Detour的源码
 
 Recast：基于将场景内碰撞，生成用于寻路的导航网格
+
+Recast生成导航网格最重要的有五个步骤：
+
+1.体素化(Voxelization) - 从输入的源几何数据转为由3D体素组成的高度场(HeightField)。用来标识不可行走的空间。一些不可走的表面在这个阶段会被剔除掉。
+
+2.生成可行走区域(Regions) - 检查高度场的顶部可行走区域，并把它划分为由连续的格子（Span）组成的一块区域（Region）。
+
+3.生成轮廓(Contours) - 检查区域的轮廓，并把这些区域组合成简单多边形，这是从体素空间转换回向量空间的第一步处理。
+
+4.生成凸多边形(Polygon Mesh) - 把上面的轮廓切分成凸多边形（Convex Polygons
+
+5.生成细节网格(Detailed Mesh) - 把上面的凸多边形进行三角化(Triangulate), 在三角形上面添加高度信息。
+
+以上流程，我们就基本了解了RecastNavmesh的基本技术框架和生成流程，接下来结合UE4来深入分析Navmesh在UE4中的使用，以及源码细节解析。
+
 Detour：基于导航网格进行寻路
 
 UE的架构是支持自己定制寻路方式的（不同ANavigationData），但是内部只提供了Navmesh这一种方式。
